@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="framework7/css/framework7.ios.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+    <link rel="stylesheet" type="text/css" href="app_framework/2.1/css/icons.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <script src="intelxdk.js"></script>
+    <script src="cordova.js"></script>
+    <script src="xhr.js"></script>
+    <script src="xdk/init-dev.js"></script>
+    <script type="application/javascript" src="lib/jquery.min.js"></script>
+    <script type="application/javascript" src="framework7/js/framework7.min.js"></script>
+    <script type="application/javascript" src="js/app.js"></script>
+    <script type="application/javascript" src="js/init-app.js"></script>
+    <script type="application/javascript" src="js/index_user_scripts.js"></script>
+    <script type="application/javascript" src="app_framework/pageChangeRepeater.js"></script>
+    <script type="application/javascript" src="xdk/appdesigner/js/rest-of-space.js"></script>
+  </head>
+
+  <body>
+    <div class="uwrap views">
+      <div class="upage view-main view" id="mainpage">
+        <div class="pages">
+          <div class="page navbar-fixed">
+            <div class="navbar inner-element uib_w_1" data-uib="framework7/header" data-ver="0" id="af-header-0">
+              <div class="navbar-inner">
+                <div class="left">
+                  <div class="widget-container content-area horiz-area wrapping-col"><a class="button widget uib_w_2 d-margins" data-uib="framework7/button" data-ver="0"><i class="gear" data-position="left"></i><span></span></a>
+                  </div>
+                </div>
+                <div class="center">Title</div>
+                <div class="right">
+                  <div class="widget-container content-area horiz-area wrapping-col"></div>
+                </div>
+              </div>
+            </div>
+            <div class="navbar inner-element uib_w_4" data-uib="framework7/header" data-ver="0" id="af-header-1">
+              <div class="navbar-inner">
+                <div class="left">
+                  <div class="widget-container content-area horiz-area wrapping-col"><a class="button widget uib_w_5 d-margins" data-uib="framework7/button" data-ver="0"><i class="gear" data-position="left"></i><span></span></a>
+                  </div>
+                </div>
+                <div class="center">Title</div>
+                <div class="right">
+                  <div class="widget-container content-area horiz-area wrapping-col"></div>
+                </div>
+              </div>
+            </div>
+            <div class="navbar inner-element uib_w_6" data-uib="framework7/header" data-ver="0" id="af-header-2">
+              <div class="navbar-inner">
+                <div class="left">
+                  <div class="widget-container content-area horiz-area wrapping-col"></div>
+                </div>
+                <div class="center">Title</div>
+                <div class="right">
+                  <div class="widget-container content-area horiz-area wrapping-col"></div>
+                </div>
+              </div>
+            </div>
+            <div class="navbar inner-element uib_w_7" data-uib="framework7/header" data-ver="0" id="af-header-3">
+              <div class="navbar-inner">
+                <div class="left">
+                  <div class="widget-container content-area horiz-area wrapping-col"></div>
+                </div>
+                <div class="center">jkjjkj</div>
+                <div class="right">
+                  <div class="widget-container content-area horiz-area wrapping-col"></div>
+                </div>
+              </div>
+            </div>
+            <div class="navbar inner-element uib_w_8" data-uib="framework7/header" data-ver="0" id="af-header-4">
+              <div class="navbar-inner">
+                <div class="left">
+                  <div class="widget-container content-area horiz-area wrapping-col"><a class="button widget uib_w_10 d-margins" data-uib="framework7/button" data-ver="0"><span></span></a>
+                  </div>
+                </div>
+                <div class="center">KidsDosage</div>
+                <div class="right">
+                  <div class="widget-container content-area horiz-area wrapping-col"></div>
+                </div>
+              </div>
+            </div>
+            <div class="navbar inner-element uib_w_9" data-uib="framework7/header" data-ver="0" id="af-header-5">
+              <div class="navbar-inner">
+                <div class="left">
+                  <div class="widget-container content-area horiz-area wrapping-col"><a class="button widget uib_w_11 d-margins" data-uib="framework7/button" data-ver="0"><i class="close" data-position="left"></i><span></span></a>
+                  </div>
+                </div>
+                <div class="center">Settings</div>
+                <div class="right">
+                  <div class="widget-container content-area horiz-area wrapping-col"></div>
+                </div>
+              </div>
+            </div>
+            <div class="upage-content ac0 content-area vertical-col left page-content">
+              <div class="grid grid-pad urow uib_row_1 row-height-1" data-uib="layout/row" data-ver="0">
+                <div class="col uib_col_1 col-0_12-12" data-uib="layout/col" data-ver="0">
+                  <div class="widget-container content-area vertical-col left">
+
+                    <div class="tarea widget uib_w_3 d-margins" data-uib="media/text" data-ver="0" name="uib_w_3">
+                      <div class="widget-container left-receptacle"></div>
+                      <div class="widget-container right-receptacle"></div>
+                      <div class="text-container">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      </div>
+                    </div><span class="uib_shim"></span>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="upage vertical-col left hidden view" id="uib_page_1">
+        <div class="pages">
+          <div class="page">
+            <div class="page-content upage-content content-area">
+              <div class="grid grid-pad urow uib_row_1001 row-height-1001 row-height-2" data-uib="layout/row" data-ver="0">
+                <div class="col uib_col_2003 col-0_6-12" data-uib="layout/col" data-ver="0">
+                  <div class="widget-container content-area vertical-col">
+
+                    <div class="tarea widget uib_w_1012 d-margins" data-uib="media/text" data-ver="0" name="uib_w_1012">
+                      <div class="widget-container left-receptacle"></div>
+                      <div class="widget-container right-receptacle"></div>
+                      <div class="text-container">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      </div>
+                    </div><span class="uib_shim"></span>
+                  </div>
+                </div>
+                <div class="col uib_col_1002 col-0_6-12" data-uib="layout/col" data-ver="0">
+                  <div class="widget-container content-area vertical-col left">
+                    <span class="uib_shim"></span>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="application/javascript" src="framework7/my-app.js"></script>
+  </body>
+
+</html>
